@@ -8,6 +8,7 @@ from stravalib.client import Client
 TOKEN = "#####"
 client = Client(access_token = TOKEN)
 activities = client.get_activities(limit=20000)
+
 activities
 
 
